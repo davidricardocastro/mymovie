@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey; 
+    margin-bottom: 1em;
+   
+    
+  }
+  
+  
+  .topbar {
+       background-color: red;
+       margin-bottom: 1em;
+       
+    
+  }
+  
+  .main {      
+      display: flex;
+      background-color: rebeccapurple;
+      margin-bottom: 1em;
+      flex-direction: row;
+  }
+  
+  .info{      
+      background-color: rebeccapurple;
+      margin-bottom: 1em;
+  }
+
+  .people {
+    display: flex;
+    flex-direction: column;
+    background-color: rebeccapurple;
+    margin-bottom: 1em;
+  }
+
+  .footer {
+    background-color: rebeccapurple;
+    margin-bottom: 1em;
+  }
