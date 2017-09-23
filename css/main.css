@@ -1,16 +1,34 @@
+* {box-sizing: border-box;
+  }
+
 body {
     display: flex;
     flex-direction: column;
     background-color: lightgrey; 
     margin-bottom: 1em;
+    justify-content: flex-start;
    
     
   }
+
+  img {
+    max-width: 80%;
+    height: auto;
+    object-fit: contain;
+  }
   
+  .introtext {
+    width: 200;
+  }
   
   .topbar {
        background-color: red;
        margin-bottom: 1em;
+       max-width: auto;
+       margin: auto;
+       display: flex;
+       justify-content: flex-start;
+       
        
     
   }
@@ -18,23 +36,41 @@ body {
   .main {      
       display: flex;
       background-color: rebeccapurple;
-      margin-bottom: 1em;
-      flex-direction: row;
-  }
+      /*margin-bottom: 1em;*/
+      margin: auto;
+      flex-wrap: wrap;
+      text-align: justify;
+      /*justify-content: ;*/
+      max-width: 800px;
+      }
+      
+
+.main2 {
+  margin: auto;
+}
+
+
+.main3 {margin: auto;}
   
-  .info{      
-      background-color: rebeccapurple;
+.info {       
+      background-color: #99336E;
       margin-bottom: 1em;
+      padding: 1em;
+      margin: auto;
+      max-width: 600rem;
   }
 
   .people {
     display: flex;
     flex-direction: column;
     background-color: rebeccapurple;
-    margin-bottom: 1em;
+    margin: auto;
+    width: 400em;
   }
 
   .footer {
     background-color: rebeccapurple;
     margin-bottom: 1em;
+    max-width: 600px;
+    margin:auto;
   }
